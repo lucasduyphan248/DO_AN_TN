@@ -1,0 +1,75 @@
+[0.043s] Invoking command in '/workspace/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[0.527s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[21.698s] [ 33%] [32m[1mLinking CXX executable simple_controller[0m
+[23.593s] [ 33%] Built target simple_controller
+[23.652s] [ 33%] Built target ament_cmake_python_copy_bumperbot_controller
+[23.694s] [ 50%] [32mBuilding CXX object CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o[0m
+[41.092s] [ 66%] [32m[1mLinking CXX executable twist_relay[0m
+[42.254s] [ 66%] Built target twist_relay
+[42.530s] running egg_info
+[42.531s] writing bumperbot_controller.egg-info/PKG-INFO
+[42.531s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[42.532s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[42.536s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[42.538s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[42.596s] [ 66%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[42.645s] [100%] Built target noisy_controller
+[42.663s] Invoked command in '/workspace/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[42.681s] Invoking command in '/workspace/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_controller
+[42.696s] -- Install configuration: ""
+[42.697s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[42.698s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[42.698s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[42.699s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[42.699s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[42.699s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[42.699s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[42.700s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[42.700s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[42.700s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[42.700s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/twist_relay.py
+[42.700s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[42.749s] Listing '/workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[42.749s] Compiling '/workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py'...
+[42.749s] Compiling '/workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py'...
+[42.749s] Compiling '/workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[42.749s] Compiling '/workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/twist_relay.py'...
+[42.759s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/include/include
+[42.759s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[42.760s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[42.762s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[42.762s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[42.771s] -- Set runtime path of "/workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[42.771s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[42.817s] -- Set runtime path of "/workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller" to ""
+[42.817s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay
+[42.826s] -- Set runtime path of "/workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay" to ""
+[42.826s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[42.828s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[42.829s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[42.829s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[42.830s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[42.831s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[42.831s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[42.831s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[42.832s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[42.832s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[42.833s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[42.833s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[42.833s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+[42.833s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[42.834s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[42.834s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[42.835s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[42.835s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[42.836s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[42.836s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[42.837s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[42.837s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[42.838s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[42.838s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[42.838s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[42.839s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[42.839s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[42.839s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[42.843s] Invoked command in '/workspace/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_controller

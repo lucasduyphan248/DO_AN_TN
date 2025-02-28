@@ -1,0 +1,21 @@
+2025-02-26 03:24:26.467 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-26 03:24:26.904 [info] [Info  - 3:24:26 AM] (1775) Server root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-26 03:24:26.912 [info] [Info  - 3:24:26 AM] (1775) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-26 03:24:26.912 [info] [Info  - 3:24:26 AM] (1775) Starting service instance "pi"
+2025-02-26 03:24:27.003 [info] [Info  - 3:24:27 AM] (1775) Setting environmentName for service "pi": "python"
+2025-02-26 03:24:27.004 [info] [Info  - 3:24:27 AM] (1775) No include entries specified; assuming /home/pi
+2025-02-26 03:24:27.005 [info] [Info  - 3:24:27 AM] (1775) Auto-excluding **/node_modules
+2025-02-26 03:24:27.006 [info] [Info  - 3:24:27 AM] (1775) Auto-excluding **/__pycache__
+2025-02-26 03:24:27.006 [info] [Info  - 3:24:27 AM] (1775) Auto-excluding **/.*
+2025-02-26 03:24:27.047 [info] [Info  - 3:24:27 AM] (1775) Assuming Python version 3.12.7.final.0
+2025-02-26 03:24:33.043 [info] [Info  - 3:24:33 AM] (1775) Found 2283 source files
+2025-02-26 03:24:33.868 [info] [Info  - 3:24:33 AM] (1775) Background analysis(1) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-26 03:24:33.870 [info] [Info  - 3:24:33 AM] (1775) Background analysis(1) started
+2025-02-26 03:24:34.234 [info] [Info  - 3:24:34 AM] (1775) Indexer background runner(2) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-26 03:24:34.235 [info] [Info  - 3:24:34 AM] (1775) Indexing(2) started
+2025-02-26 03:24:37.170 [info] [Info  - 3:24:37 AM] (1775) [BG(1)] Long operation: SemanticTokens full at file:///home/pi/humble_docker/bumperbot_ws/src/robot_nav2/launch/robot_nav2.launch.py (3250ms)
+2025-02-26 03:24:38.751 [info] [Info  - 3:24:38 AM] (1775) [IDX(2)] Long operation: scan packages file:///home/pi (4310ms)
+2025-02-26 03:24:38.752 [info] [Info  - 3:24:38 AM] (1775) scanned(2) 314 files over 1 exec env
+2025-02-26 03:24:39.507 [info] [Info  - 3:24:39 AM] (1775) indexed(2) 314 files over 1 exec env
+2025-02-26 03:24:39.750 [info] [Info  - 3:24:39 AM] (1775) Indexing finished(2).
+2025-02-26 03:24:48.980 [info] [Warn  - 3:24:48 AM] (1775) Workspace indexing has hit its upper limit: 2000 files

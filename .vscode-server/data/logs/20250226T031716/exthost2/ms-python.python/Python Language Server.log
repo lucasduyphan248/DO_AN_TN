@@ -1,0 +1,19 @@
+2025-02-26 03:17:31.375 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-26 03:17:31.769 [info] [Info  - 3:17:31 AM] (2303) Server root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-26 03:17:31.773 [info] [Info  - 3:17:31 AM] (2303) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-26 03:17:31.773 [info] [Info  - 3:17:31 AM] (2303) Starting service instance "pi"
+2025-02-26 03:17:31.865 [info] [Info  - 3:17:31 AM] (2303) Setting environmentName for service "pi": "python"
+2025-02-26 03:17:31.866 [info] [Info  - 3:17:31 AM] (2303) No include entries specified; assuming /home/pi
+2025-02-26 03:17:31.867 [info] [Info  - 3:17:31 AM] (2303) Auto-excluding **/node_modules
+2025-02-26 03:17:31.867 [info] [Info  - 3:17:31 AM] (2303) Auto-excluding **/__pycache__
+2025-02-26 03:17:31.868 [info] [Info  - 3:17:31 AM] (2303) Auto-excluding **/.*
+2025-02-26 03:17:31.915 [info] [Info  - 3:17:31 AM] (2303) Assuming Python version 3.12.7.final.0
+2025-02-26 03:17:36.272 [info] [Info  - 3:17:36 AM] (2303) Found 2283 source files
+2025-02-26 03:17:36.350 [info] [Info  - 3:17:36 AM] (2303) Background analysis(1) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-26 03:17:36.351 [info] [Info  - 3:17:36 AM] (2303) Background analysis(1) started
+2025-02-26 03:17:37.901 [info] [Info  - 3:17:37 AM] (2303) Indexer background runner(2) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-26 03:17:37.902 [info] [Info  - 3:17:37 AM] (2303) Indexing(2) started
+2025-02-26 03:17:40.233 [info] [Info  - 3:17:40 AM] (2303) scanned(2) 314 files over 1 exec env
+2025-02-26 03:17:40.927 [info] [Info  - 3:17:40 AM] (2303) indexed(2) 314 files over 1 exec env
+2025-02-26 03:17:41.147 [info] [Info  - 3:17:41 AM] (2303) Indexing finished(2).
+2025-02-26 03:17:48.817 [info] [Warn  - 3:17:48 AM] (2303) Workspace indexing has hit its upper limit: 2000 files

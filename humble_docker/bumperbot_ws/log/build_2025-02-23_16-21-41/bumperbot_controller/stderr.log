@@ -1,0 +1,10 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/simple_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/twist_relay.dir/build.make:76: CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/twist_relay.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

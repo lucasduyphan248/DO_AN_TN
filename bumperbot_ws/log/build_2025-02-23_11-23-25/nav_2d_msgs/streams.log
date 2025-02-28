@@ -1,0 +1,71 @@
+[0.169s] Invoking command in '/home/pi/bumperbot_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_humble/install/rqt_bag_plugins:/home/pi/ros2_humble/install/rqt_bag:/home/pi/ros2_humble/install/launch_testing_examples:/home/pi/ros2_humble/install/ros2bag:/home/pi/ros2_humble/install/tracetools_test:/home/pi/ros2_humble/install/tracetools_launch:/home/pi/ros2_humble/install/topic_monitor:/home/pi/ros2_humble/install/tf2_tools:/home/pi/ros2_humble/install/examples_tf2_py:/home/pi/ros2_humble/install/tf2_ros_py:/home/pi/ros2_humble/install/sros2:/home/pi/ros2_humble/install/rqt_topic:/home/pi/ros2_humble/install/rqt_srv:/home/pi/ros2_humble/install/rqt_shell:/home/pi/ros2_humble/install/rqt_service_caller:/home/pi/ros2_humble/install/rqt_reconfigure:/home/pi/ros2_humble/install/rqt_py_console:/home/pi/ros2_humble/install/rqt_publisher:/home/pi/ros2_humble/install/rqt_plot:/home/pi/ros2_humble/install/rqt_action:/home/pi/ros2_humble/install/rqt_msg:/home/pi/ros2_humble/install/rqt_console:/home/pi/ros2_humble/install/rqt:/home/pi/ros2_humble/install/rqt_graph:/home/pi/ros2_humble/install/rqt_gui_py:/home/pi/ros2_humble/install/rqt_gui:/home/pi/ros2_humble/install/ros2trace:/home/pi/ros2_humble/install/ros2topic:/home/pi/ros2_humble/install/ros2test:/home/pi/ros2_humble/install/ros2component:/home/pi/ros2_humble/install/ros2param:/home/pi/ros2_humble/install/ros2lifecycle:/home/pi/ros2_humble/install/ros2service:/home/pi/ros2_humble/install/ros2run:/home/pi/ros2_humble/install/ros2launch:/home/pi/ros2_humble/install/ros2pkg:/home/pi/ros2_humble/install/ros2node:/home/pi/ros2_humble/install/ros2multicast:/home/pi/ros2_humble/install/ros2interface:/home/pi/ros2_humble/install/ros2doctor:/home/pi/ros2_humble/install/ros2action:/home/pi/ros2_humble/install/ros2cli:/home/pi/ros2_humble/install/quality_of_service_demo_py:/home/pi/ros2_humble/install/lifecycle_py:/home/pi/ros2_humble/install/launch_testing_ros:/home/pi/ros2_humble/install/launch_ros:/home/pi/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_humble/install/examples_rclpy_minimal_service:/home/pi/ros2_humble/install/examples_rclpy_minimal_publisher:/home/pi/ros2_humble/install/examples_rclpy_minimal_client:/home/pi/ros2_humble/install/examples_rclpy_minimal_action_server:/home/pi/ros2_humble/install/examples_rclpy_minimal_action_client:/home/pi/ros2_humble/install/examples_rclpy_guard_conditions:/home/pi/ros2_humble/install/examples_rclpy_executors:/home/pi/ros2_humble/install/demo_nodes_py:/home/pi/ros2_humble/install/camera_info_manager_py:/home/pi/ros2_humble/install/action_tutorials_py:/home/pi/ros2_humble/install/ament_uncrustify:/home/pi/ros2_humble/install/tracetools_trace:/home/pi/ros2_humble/install/tracetools_read:/home/pi/ros2_humble/install/test_tracetools_launch:/home/pi/ros2_humble/install/test_launch_ros:/home/pi/ros2_humble/install/sensor_msgs_py:/home/pi/ros2_humble/install/rpyutils:/home/pi/ros2_humble/install/rosidl_runtime_py:/home/pi/ros2_humble/install/rosidl_cli:/home/pi/ros2_humble/install/launch_pytest:/home/pi/ros2_humble/install/launch_testing:/home/pi/ros2_humble/install/launch_yaml:/home/pi/ros2_humble/install/launch_xml:/home/pi/ros2_humble/install/launch:/home/pi/ros2_humble/install/osrf_pycommon:/home/pi/ros2_humble/install/domain_coordinator:/home/pi/ros2_humble/install/ament_xmllint:/home/pi/ros2_humble/install/ament_pyflakes:/home/pi/ros2_humble/install/ament_pycodestyle:/home/pi/ros2_humble/install/ament_pep257:/home/pi/ros2_humble/install/ament_pclint:/home/pi/ros2_humble/install/ament_package:/home/pi/ros2_humble/install/ament_mypy:/home/pi/ros2_humble/install/ament_lint_cmake:/home/pi/ros2_humble/install/ament_flake8:/home/pi/ros2_humble/install/ament_copyright:/home/pi/ros2_humble/install/ament_lint:/home/pi/ros2_humble/install/ament_index_python:/home/pi/ros2_humble/install/ament_cpplint:/home/pi/ros2_humble/install/ament_cppcheck:/home/pi/ros2_humble/install/ament_clang_tidy:/home/pi/ros2_humble/install/ament_clang_format /usr/bin/cmake /home/pi/bumperbot_ws/src/navigation2-jazzy/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/bumperbot_ws/install/nav_2d_msgs
+[0.884s] -- The C compiler identification is GNU 14.2.0
+[1.412s] -- The CXX compiler identification is GNU 14.2.0
+[1.473s] -- Detecting C compiler ABI info
+[1.899s] -- Detecting C compiler ABI info - done
+[1.959s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.961s] -- Detecting C compile features
+[1.961s] -- Detecting C compile features - done
+[1.983s] -- Detecting CXX compiler ABI info
+[2.449s] -- Detecting CXX compiler ABI info - done
+[2.513s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.514s] -- Detecting CXX compile features
+[2.515s] -- Detecting CXX compile features - done
+[2.561s] -- Found geometry_msgs: 4.2.4 (/home/pi/ros2_humble/install/geometry_msgs/share/geometry_msgs/cmake)
+[3.655s] -- Found Python3: /usr/bin/python3 (found version "3.12.7") found components: Interpreter
+[4.056s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.400s] -- Found rosidl_generator_c: 3.1.6 (/home/pi/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+[5.521s] -- Found rosidl_adapter: 3.1.6 (/home/pi/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[5.652s] -- Found rosidl_generator_cpp: 3.1.6 (/home/pi/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+[5.885s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[6.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[6.411s] -- Found rosidl_default_generators: 1.2.0 (/home/pi/ros2_humble/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[9.082s] -- Found ament_cmake_ros: 0.10.0 (/home/pi/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[12.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[15.003s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[15.013s] [33mCMake Warning (dev) at /home/pi/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[15.013s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[15.013s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[15.013s]   the cmake_policy command to set the policy and suppress this warning.
+[15.013s] 
+[15.014s] Call Stack (most recent call first):
+[15.014s]   /home/pi/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[15.014s]   /home/pi/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[15.014s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[15.014s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.014s] [0m
+[15.190s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.12.7", minimum required is "3.6")
+[15.250s] -- Found python_cmake_module: 0.10.0 (/home/pi/ros2_humble/install/python_cmake_module/share/python_cmake_module/cmake)
+[15.260s] [33mCMake Warning (dev) at /home/pi/ros2_humble/install/python_cmake_module/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[15.260s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[15.260s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[15.260s]   the cmake_policy command to set the policy and suppress this warning.
+[15.260s] 
+[15.260s] Call Stack (most recent call first):
+[15.260s]   /home/pi/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[15.260s]   /home/pi/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[15.261s]   /home/pi/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[15.261s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[15.261s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.261s] [0m
+[15.404s] [33mCMake Warning (dev) at /home/pi/ros2_humble/install/python_cmake_module/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[15.404s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[15.404s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[15.404s]   the cmake_policy command to set the policy and suppress this warning.
+[15.405s] 
+[15.405s] Call Stack (most recent call first):
+[15.406s]   /home/pi/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[15.406s]   /home/pi/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[15.406s]   /home/pi/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[15.407s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[15.407s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.407s] [0m
+[15.508s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.12.so (found suitable version "3.12.7", minimum required is "3.5")
+[15.509s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.512s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.12
+[15.512s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.12.so
+[15.682s] -- Found PythonExtra: .so
+[16.743s] -- Using numpy include directory: /usr/lib/python3/dist-packages/numpy/core/include
+[18.401s] -- Configuring done (18.2s)
+[18.634s] -- Generating done (0.2s)
+[18.657s] -- Build files have been written to: /home/pi/bumperbot_ws/build/nav_2d_msgs

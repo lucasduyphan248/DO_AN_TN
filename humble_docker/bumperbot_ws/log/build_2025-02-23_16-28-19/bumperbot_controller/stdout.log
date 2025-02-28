@@ -1,0 +1,71 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable simple_controller[0m
+[ 33%] Built target simple_controller
+[ 33%] Built target ament_cmake_python_copy_bumperbot_controller
+[ 50%] [32mBuilding CXX object CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable twist_relay[0m
+[ 66%] Built target twist_relay
+running egg_info
+writing bumperbot_controller.egg-info/PKG-INFO
+writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+writing top-level names to bumperbot_controller.egg-info/top_level.txt
+reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[ 66%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[100%] Built target noisy_controller
+-- Install configuration: ""
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/twist_relay.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+Listing '/workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+Compiling '/workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py'...
+Compiling '/workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py'...
+Compiling '/workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+Compiling '/workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/twist_relay.py'...
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/include/include
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+-- Set runtime path of "/workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+-- Set runtime path of "/workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller" to ""
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay
+-- Set runtime path of "/workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay" to ""
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml

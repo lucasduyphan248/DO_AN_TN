@@ -1,0 +1,1 @@
+Invoking command in '/workspace/bumperbot_ws/build/bumperbot_firmware': /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4

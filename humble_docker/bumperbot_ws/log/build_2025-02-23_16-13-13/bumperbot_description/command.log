@@ -1,0 +1,6 @@
+Invoking command in '/workspace/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/workspace/bumperbot_ws/install/bumperbot_description
+Invoked command in '/workspace/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/workspace/bumperbot_ws/install/bumperbot_description
+Invoking command in '/workspace/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+Invoked command in '/workspace/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+Invoking command in '/workspace/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_description
+Invoked command in '/workspace/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_description

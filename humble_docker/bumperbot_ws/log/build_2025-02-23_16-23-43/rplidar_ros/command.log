@@ -1,0 +1,3 @@
+Invoking command in '/workspace/bumperbot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/bumperbot_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/workspace/bumperbot_ws/install/rplidar_ros
+Invoked command in '/workspace/bumperbot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/bumperbot_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/workspace/bumperbot_ws/install/rplidar_ros
+Invoking command in '/workspace/bumperbot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/rplidar_ros -- -j4 -l4

@@ -1,0 +1,43 @@
+[0.039s] Invoking command in '/workspace/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_utils -- -j4 -l4
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target safety_stop[0m
+[0.307s] [100%] Built target safety_stop
+[0.311s] [100%] Built target ament_cmake_python_copy_bumperbot_utils
+[0.982s] running egg_info
+[0.985s] writing bumperbot_utils.egg-info/PKG-INFO
+[0.986s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[0.996s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[1.014s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.020s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.157s] [100%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[1.369s] Invoked command in '/workspace/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_utils -- -j4 -l4
+[1.373s] Invoking command in '/workspace/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_utils
+[1.393s] -- Install configuration: ""
+[1.396s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[1.396s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[1.396s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+[1.397s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.397s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[1.397s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.397s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[1.397s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils
+[1.397s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/safety_stop.py
+[1.398s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/__init__.py
+[1.482s] Listing '/workspace/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils'...
+[1.500s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[1.502s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[1.502s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[1.502s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[1.503s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[1.503s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[1.503s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[1.503s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[1.504s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[1.504s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[1.504s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[1.504s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[1.506s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[1.507s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[1.508s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[1.508s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[1.509s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[1.510s] Invoked command in '/workspace/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_utils

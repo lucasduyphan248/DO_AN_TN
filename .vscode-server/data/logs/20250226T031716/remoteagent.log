@@ -1,0 +1,45 @@
+2025-02-26 03:17:16.793 [info] 
+
+
+
+
+2025-02-26 03:17:16.820 [info] Extension host agent started.
+2025-02-26 03:17:16.975 [info] [<unknown>][a47c8c04][ExtensionHostConnection] New connection established.
+2025-02-26 03:17:17.021 [info] [<unknown>][b347e6ec][ManagementConnection] New connection established.
+2025-02-26 03:17:17.131 [info] [<unknown>][a47c8c04][ExtensionHostConnection] <2079> Launched Extension Host Process.
+2025-02-26 03:17:21.102 [error] CodeExpectedError: Could not find pty 4 on pty host
+    at I.W (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12233)
+    at I.updateTitle (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at Kc.s (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80170)
+    at Kc.q (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79693)
+    at hs.value (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79095)
+    at C.B (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at C.fire (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.w (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29136)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-02-26 03:17:21.105 [error] CodeExpectedError: Could not find pty 4 on pty host
+    at I.W (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12233)
+    at I.updateIcon (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7772)
+    at O.s.<computed> (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at Kc.s (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80170)
+    at Kc.q (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79693)
+    at hs.value (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79095)
+    at C.B (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at C.fire (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.w (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29136)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-02-26 03:17:21.446 [info] [<unknown>][b347e6ec][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-26 03:17:21.576 [info] [<unknown>][a47c8c04][ExtensionHostConnection] <2079> Extension Host Process exited with code: 0, signal: null.
+2025-02-26 03:17:21.577 [info] Cancelling previous shutdown timeout
+2025-02-26 03:17:21.577 [info] Last EH closed, waiting before shutting down
+2025-02-26 03:17:24.630 [info] [<unknown>][fc8c9b53][ManagementConnection] New connection established.
+2025-02-26 03:17:24.656 [info] [<unknown>][9c2081b3][ExtensionHostConnection] New connection established.
+2025-02-26 03:17:24.663 [info] [<unknown>][9c2081b3][ExtensionHostConnection] <2143> Launched Extension Host Process.
+2025-02-26 03:22:21.578 [info] New EH opened, aborting shutdown

@@ -1,0 +1,30 @@
+2025-02-26 02:42:27.980 [info] Experiment 'pythonaa' is active
+2025-02-26 02:42:27.980 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-26 02:42:27.980 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-26 02:42:27.980 [info] Experiment 'pythonTestAdapter' is active
+2025-02-26 02:42:27.980 [info] Native locator: Refresh started
+2025-02-26 02:42:27.980 [info] Native locator: Refresh started
+2025-02-26 02:42:27.980 [info] > pyenv which python
+2025-02-26 02:42:27.980 [info] cwd: .
+2025-02-26 02:42:28.041 [info] Native locator: Refresh finished in 1447 ms
+2025-02-26 02:42:28.059 [info] > python -c "import sys;print(sys.executable)"
+2025-02-26 02:42:28.104 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2025-02-26 02:42:28.116 [info] > pyenv which python
+2025-02-26 02:42:28.116 [info] cwd: .
+2025-02-26 02:42:29.605 [info] Starting Pylance language server.
+2025-02-26 02:42:52.011 [info] Discover tests for workspace name: pi - uri: /home/pi/humble_docker/bumperbot_ws/src/robot_nav2/launch/robot_nav2.launch.py

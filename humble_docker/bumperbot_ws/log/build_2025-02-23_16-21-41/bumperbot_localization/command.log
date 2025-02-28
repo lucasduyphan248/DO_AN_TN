@@ -1,0 +1,1 @@
+Invoking command in '/workspace/bumperbot_ws/build/bumperbot_localization': /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_localization -- -j4 -l4

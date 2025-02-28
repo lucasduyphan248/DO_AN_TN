@@ -1,0 +1,20 @@
+2025-02-26 04:21:59.602 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-26 04:22:00.025 [info] [Info  - 4:21:59 AM] (1881) Server root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-26 04:22:00.029 [info] [Info  - 4:22:00 AM] (1881) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-26 04:22:00.029 [info] [Info  - 4:22:00 AM] (1881) Starting service instance "pi"
+2025-02-26 04:22:00.119 [info] [Info  - 4:22:00 AM] (1881) Setting environmentName for service "pi": "python"
+2025-02-26 04:22:00.120 [info] [Info  - 4:22:00 AM] (1881) No include entries specified; assuming /home/pi
+2025-02-26 04:22:00.121 [info] [Info  - 4:22:00 AM] (1881) Auto-excluding **/node_modules
+2025-02-26 04:22:00.122 [info] [Info  - 4:22:00 AM] (1881) Auto-excluding **/__pycache__
+2025-02-26 04:22:00.122 [info] [Info  - 4:22:00 AM] (1881) Auto-excluding **/.*
+2025-02-26 04:22:00.164 [info] [Info  - 4:22:00 AM] (1881) Assuming Python version 3.12.7.final.0
+2025-02-26 04:22:04.453 [info] [Info  - 4:22:04 AM] (1881) Found 2283 source files
+2025-02-26 04:22:05.179 [info] [Info  - 4:22:05 AM] (1881) Background analysis(1) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-26 04:22:05.185 [info] [Info  - 4:22:05 AM] (1881) Background analysis(1) started
+2025-02-26 04:22:05.748 [info] [Info  - 4:22:05 AM] (1881) Indexer background runner(2) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-26 04:22:05.750 [info] [Info  - 4:22:05 AM] (1881) Indexing(2) started
+2025-02-26 04:22:08.178 [info] [Info  - 4:22:08 AM] (1881) [IDX(2)] Long operation: scan packages file:///home/pi (2049ms)
+2025-02-26 04:22:08.179 [info] [Info  - 4:22:08 AM] (1881) scanned(2) 314 files over 1 exec env
+2025-02-26 04:22:08.899 [info] [Info  - 4:22:08 AM] (1881) indexed(2) 314 files over 1 exec env
+2025-02-26 04:22:09.111 [info] [Info  - 4:22:09 AM] (1881) Indexing finished(2).
+2025-02-26 04:22:17.405 [info] [Warn  - 4:22:17 AM] (1881) Workspace indexing has hit its upper limit: 2000 files

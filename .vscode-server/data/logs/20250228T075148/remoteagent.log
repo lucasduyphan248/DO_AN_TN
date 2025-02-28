@@ -1,0 +1,13 @@
+2025-02-28 07:51:48.875 [info] 
+
+
+
+
+2025-02-28 07:51:48.898 [info] Extension host agent started.
+2025-02-28 07:51:49.011 [info] [<unknown>][14a8b6a0][ExtensionHostConnection] New connection established.
+2025-02-28 07:51:49.022 [info] [<unknown>][1ddac5ad][ManagementConnection] New connection established.
+2025-02-28 07:51:49.200 [info] [<unknown>][14a8b6a0][ExtensionHostConnection] <1427> Launched Extension Host Process.
+2025-02-28 07:51:57.420 [info] [<unknown>][1ddac5ad][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-28 07:52:00.742 [info] [<unknown>][56354474][ManagementConnection] New connection established.
+2025-02-28 07:52:00.785 [info] [<unknown>][e3961384][ExtensionHostConnection] New connection established.
+2025-02-28 07:52:00.791 [info] [<unknown>][e3961384][ExtensionHostConnection] <1473> Launched Extension Host Process.

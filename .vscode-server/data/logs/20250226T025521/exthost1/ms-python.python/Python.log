@@ -1,0 +1,29 @@
+2025-02-26 02:59:54.037 [info] Experiment 'pythonaa' is active
+2025-02-26 02:59:54.037 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-26 02:59:54.037 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-26 02:59:54.037 [info] Experiment 'pythonTestAdapter' is active
+2025-02-26 02:59:54.037 [info] Native locator: Refresh started
+2025-02-26 02:59:54.037 [info] Native locator: Refresh started
+2025-02-26 02:59:54.037 [info] > pyenv which python
+2025-02-26 02:59:54.037 [info] cwd: .
+2025-02-26 02:59:54.132 [info] Native locator: Refresh finished in 1641 ms
+2025-02-26 02:59:54.147 [info] > python -c "import sys;print(sys.executable)"
+2025-02-26 02:59:54.149 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2025-02-26 02:59:54.159 [info] > pyenv which python
+2025-02-26 02:59:54.159 [info] cwd: .
+2025-02-26 03:00:00.237 [info] Starting Pylance language server.

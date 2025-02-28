@@ -1,0 +1,23 @@
+2025-02-26 03:17:30.238 [info] Starting Python Locator /home/pi/.vscode-server/extensions/ms-python.python-2025.0.0-linux-arm64/python-env-tools/bin/pet server
+2025-02-26 03:17:30.268 [info] Discovered env: /usr/bin/python3
+2025-02-26 03:17:30.340 [info] Discovered env: /bin/python3
+2025-02-26 03:17:30.357 [info] Discovered env: /usr/bin/python3.12
+2025-02-26 03:17:30.366 [info] Discovered env: /bin/python3.12
+2025-02-26 03:17:30.370 [info] Locator Conda took 481.382338ms
+2025-02-26 03:17:30.398 [info] Locator Homebrew took 87.379µs
+2025-02-26 03:17:30.402 [info] Locator LinuxGlobal took 283.691368ms
+2025-02-26 03:17:30.411 [info] Locator PipEnv took 41.486µs
+2025-02-26 03:17:30.412 [info] Locator Poetry took 265.712µs
+2025-02-26 03:17:30.412 [info] Locator PyEnv took 1.455924ms
+2025-02-26 03:17:30.413 [info] Locator Venv took 27.021µs
+2025-02-26 03:17:30.421 [info] Locator VirtualEnv took 30.873µs
+2025-02-26 03:17:30.436 [info] Locator VirtualEnvWrapper took 37.541µs
+2025-02-26 03:17:30.438 [info] Locator GlobalVirtualEnvs took 105.269µs
+2025-02-26 03:17:30.447 [info] Locator Locators took 483.578688ms
+2025-02-26 03:17:30.448 [info] Locator Path took 287.251633ms
+2025-02-26 03:17:30.448 [info] Locator Workspaces took 69.009312ms
+2025-02-26 03:17:30.448 [info] Refresh completed in 485ms
+2025-02-26 03:17:30.451 [info] Resolved /usr/bin/python3
+2025-02-26 03:17:30.461 [info] Resolved /bin/python3
+2025-02-26 03:17:30.462 [info] Resolved /usr/bin/python3.12
+2025-02-26 03:17:30.464 [info] Resolved /bin/python3.12

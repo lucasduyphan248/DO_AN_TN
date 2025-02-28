@@ -1,0 +1,68 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_serial_receiver[0m
+[35m[1mConsolidate compiler generated dependencies of target bumperbot_firmware[0m
+[  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[ 33%] Built target simple_serial_receiver
+[ 66%] Built target simple_serial_transmitter
+[100%] Built target bumperbot_firmware
+running egg_info
+writing bumperbot_firmware.egg-info/PKG-INFO
+writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+-- Install configuration: ""
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/mpu6050_driver.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+Listing '/workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+Compiling '/workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py'...
+Compiling '/workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/mpu6050_driver.py'...
+Compiling '/workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py'...
+Compiling '/workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py'...
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+-- Set runtime path of "/workspace/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/include/include
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+-- Set runtime path of "/workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver" to ""
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+-- Set runtime path of "/workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml

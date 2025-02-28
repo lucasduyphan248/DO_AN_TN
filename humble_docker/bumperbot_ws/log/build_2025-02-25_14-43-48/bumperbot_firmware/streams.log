@@ -1,0 +1,62 @@
+[0.086s] Invoking command in '/workspace/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[0.606s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.997s] [ 33%] Built target simple_serial_receiver
+[0.998s] [ 66%] Built target bumperbot_firmware
+[1.003s] [100%] Built target simple_serial_transmitter
+[1.703s] running egg_info
+[1.706s] writing bumperbot_firmware.egg-info/PKG-INFO
+[1.706s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[1.714s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[1.732s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.753s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.869s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[1.932s] Invoked command in '/workspace/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[1.939s] Invoking command in '/workspace/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_firmware
+[1.972s] -- Install configuration: ""
+[1.972s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[2.003s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[2.003s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[2.003s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.003s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[2.003s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.004s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[2.004s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+[2.004s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[2.004s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/mpu6050_driver.py
+[2.006s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[2.007s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[2.068s] Listing '/workspace/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[2.100s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[2.101s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[2.106s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/include/include
+[2.106s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+[2.107s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[2.107s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[2.107s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[2.107s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[2.107s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[2.107s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+[2.111s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[2.123s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[2.125s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[2.126s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[2.126s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[2.126s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[2.126s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[2.126s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[2.126s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[2.126s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[2.127s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[2.127s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[2.127s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[2.127s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[2.127s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[2.130s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[2.130s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[2.130s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.130s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[2.131s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.131s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[2.133s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[2.133s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[2.137s] Invoked command in '/workspace/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_firmware

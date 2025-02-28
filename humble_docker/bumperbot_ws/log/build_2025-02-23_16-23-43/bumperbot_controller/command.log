@@ -1,0 +1,1 @@
+Invoking command in '/workspace/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_controller -- -j4 -l4

@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/Self-Driving-and-ROS-2-Learn-by-Doing-Map-Localization/Section11_Build_the_Robot/bumperbot_ws/src/bumperbot_controller/src",
+      "program": "d:/Self-Driving-and-ROS-2-Learn-by-Doing-Map-Localization/Section11_Build_the_Robot/bumperbot_ws/src/bumperbot_controller/src/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

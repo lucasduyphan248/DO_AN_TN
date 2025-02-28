@@ -1,0 +1,13 @@
+[0.041s] Invoking command in '/workspace/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[0.339s] [35m[1mConsolidate compiler generated dependencies of target noisy_controller[0m
+[0.444s] [ 16%] [32mBuilding CXX object CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o[0m
+[0.451s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.470s] [ 33%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.832s] [ 66%] Built target noisy_controller
+[1.202s] running egg_info
+[1.203s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.204s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.204s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.209s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.247s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.392s] [ 66%] Built target ament_cmake_python_build_bumperbot_controller_egg

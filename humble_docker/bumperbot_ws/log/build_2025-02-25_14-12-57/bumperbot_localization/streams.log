@@ -1,0 +1,64 @@
+[0.048s] Invoking command in '/workspace/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_localization -- -j4 -l4
+[0.361s] [  0%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.393s] [ 33%] Built target imu_republisher
+[0.424s] [ 66%] Built target kalman_filter
+[0.449s] [100%] Built target odometry_motion_model
+[1.130s] running egg_info
+[1.130s] writing bumperbot_localization.egg-info/PKG-INFO
+[1.130s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[1.134s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[1.134s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.140s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.238s] [100%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[1.297s] Invoked command in '/workspace/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_localization -- -j4 -l4
+[1.305s] Invoking command in '/workspace/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_localization
+[1.323s] -- Install configuration: ""
+[1.324s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[1.325s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[1.325s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[1.327s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.327s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[1.328s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.329s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[1.330s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization
+[1.333s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py
+[1.333s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/odometry_motion_model.py
+[1.333s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py
+[1.334s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py
+[1.459s] Listing '/workspace/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization'...
+[1.518s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/include/include
+[1.519s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[1.520s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[1.520s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/odometry_motion_model.hpp
+[1.523s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/bin/odometry_motion_model
+[1.532s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[1.539s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[1.551s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model
+[1.551s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+[1.551s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[1.551s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
+[1.551s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config
+[1.551s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/odometry_motion_model.rviz
+[1.551s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[1.552s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/amcl.yaml
+[1.552s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz
+[1.552s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz/global_localization.rviz
+[1.552s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[1.552s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[1.553s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[1.553s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[1.553s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[1.553s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[1.553s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[1.553s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[1.554s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[1.554s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[1.554s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[1.554s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[1.554s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[1.554s] -- Installing: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[1.554s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[1.554s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[1.554s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[1.554s] -- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[1.564s] Invoked command in '/workspace/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_localization

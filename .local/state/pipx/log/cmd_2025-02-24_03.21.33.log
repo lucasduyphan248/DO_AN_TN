@@ -1,0 +1,53 @@
+   206.3ms (setup:1081): 2025-02-24 03:21:33
+   206.4ms (setup:1082): /usr/bin/pipx install imutils
+   206.4ms (setup:1083): pipx version is 1.6.0
+   206.5ms (setup:1084): Default python interpreter is '/usr/bin/python3.12'
+   206.7ms (mkdir:76): creating directory /home/pi/.local/share/pipx/venvs
+   207.0ms (mkdir:76): creating directory /home/pi/.local/bin
+   207.1ms (mkdir:76): creating directory /home/pi/.local/share/man
+   207.3ms (mkdir:76): creating directory /home/pi/.cache/pipx
+   207.5ms (mkdir:76): creating directory /home/pi/.local/share/pipx/py
+   207.7ms (setup:1098): Adding CACHEDIR.TAG to cache directory
+   207.8ms (setup:1098): Adding CACHEDIR.TAG to cache directory
+   209.2ms (package_name_from_spec:378): Determined package name: imutils
+   209.2ms (package_name_from_spec:379): Package name determined in 0.0s
+   209.5ms (create_venv:162): Creating virtual environment
+   210.0ms (run_subprocess:175): running /usr/bin/python3.12 -m venv --without-pip /home/pi/.local/share/pipx/venvs/imutils
+   290.2ms (run_subprocess:195): stdout:
+   290.3ms (run_subprocess:197): stderr:
+   290.4ms (run_subprocess:198): returncode: 0
+   291.1ms (run_subprocess:175): running /usr/bin/python3.12 -m venv --clear /home/pi/.local/share/pipx/shared
+  4199.0ms (run_subprocess:195): stdout:
+  4199.1ms (run_subprocess:197): stderr:
+  4199.2ms (run_subprocess:198): returncode: 0
+  4199.6ms (run_subprocess:175): running <checking pip's availability>
+  4220.0ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0xffffb0e4d7c0>, origin='/home/pi/.local/share/pipx/shared/lib/python3.12/site-packages/pip/__init__.py', submodule_search_locations=['/home/pi/.local/share/pipx/shared/lib/python3.12/site-packages/pip'])
+  4220.1ms (run_subprocess:198): returncode: 0
+  4220.3ms (upgrade:103): Upgrading shared libraries in /home/pi/.local/share/pipx/shared
+  4220.7ms (run_subprocess:175): running /home/pi/.local/share/pipx/shared/bin/python -m pip --no-input --disable-pip-version-check install --force-reinstall -q --upgrade pip >= 23.1
+  7851.5ms (run_subprocess:195): stdout:
+  7851.7ms (run_subprocess:197): stderr:
+  7851.7ms (run_subprocess:198): returncode: 0
+  7852.0ms (run_subprocess:175): running /home/pi/.local/share/pipx/venvs/imutils/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+  7881.3ms (run_subprocess:195): stdout: /home/pi/.local/share/pipx/venvs/imutils/lib/python3.12/site-packages
+  7881.5ms (run_subprocess:198): returncode: 0
+  7881.7ms (run_subprocess:175): running /home/pi/.local/share/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+  7910.1ms (run_subprocess:195): stdout: /home/pi/.local/share/pipx/shared/lib/python3.12/site-packages
+  7910.2ms (run_subprocess:198): returncode: 0
+  7910.7ms (run_subprocess:175): running /home/pi/.local/share/pipx/venvs/imutils/bin/python --version
+  7912.7ms (run_subprocess:195): stdout: Python 3.12.7
+  7912.8ms (run_subprocess:197): stderr:
+  7912.8ms (run_subprocess:198): returncode: 0
+  7913.1ms (_parsed_package_to_package_or_url:139): cleaned package spec: imutils
+  7913.2ms (install_package:245): Installing imutils
+  7913.6ms (run_subprocess:175): running /home/pi/.local/share/pipx/venvs/imutils/bin/python -m pip --no-input install imutils
+ 12779.7ms (run_subprocess:198): returncode: 0
+ 12780.3ms (run_subprocess:175): running <fetch_info_in_venv commands>
+ 12814.9ms (run_subprocess:195): stdout: {"sys_path": ["/usr/lib/python312.zip", "/usr/lib/python3.12", "/usr/lib/python3.12/lib-dynload", "/home/pi/.local/share/pipx/venvs/imutils/lib/python3.12/site-packages", "/home/pi/.local/share/pipx/shared/lib/python3.12/site-packages"], "python_version": "3.12.7", "environment": {"implementation_name": "cpython", "implementation_version": "3.12.7", "os_name": "posix", "platform_machine": "aarch64", "platform_release": "6.11.0-1008-raspi", "platform_system": "Linux", "platform_version": "#8-Ubuntu SMP PREEMPT_DYNAMIC Tue Jan 21 12:05:23 UTC 2025", "python_full_version": "3.12.7", "platform_python_implementation": "CPython", "python_version": "3.12", "sys_platform": "linux"}}
+ 12815.0ms (run_subprocess:198): returncode: 0
+ 12819.4ms (get_venv_metadata_for_package:349): get_venv_metadata_for_package: 39ms
+ 12819.7ms (_parsed_package_to_package_or_url:139): cleaned package spec: imutils
+ 12822.6ms (warn_if_not_on_path:474): ⚠️  Note: '/home/pi/.local/bin' is not on your PATH environment variable. These apps will not be globally accessible
+    until your PATH is updated. Run `pipx ensurepath` to automatically add it, or manually modify your PATH in your
+    shell's config file (e.g. ~/.bashrc).
+ 12822.8ms (cli:1160): pipx finished.

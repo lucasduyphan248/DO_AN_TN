@@ -1,0 +1,24 @@
+[0.034s] Invoking command in '/workspace/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[0.617s] [ 16%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[0.618s] [ 33%] [32mBuilding CXX object CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o[0m
+[0.650s] [ 33%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.653s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[1.250s] running egg_info
+[1.252s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.253s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.259s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.280s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.293s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.380s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[18.581s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[18.610s] compilation terminated.
+[18.610s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[18.616s] gmake[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/simple_controller.dir/all] Error 2
+[18.618s] gmake[1]: *** Waiting for unfinished jobs....
+[21.184s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[21.194s] compilation terminated.
+[21.236s] gmake[2]: *** [CMakeFiles/twist_relay.dir/build.make:76: CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o] Error 1
+[21.295s] gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/twist_relay.dir/all] Error 2
+[37.224s] [ 66%] [32m[1mLinking CXX executable noisy_controller[0m
+[40.033s] [ 66%] Built target noisy_controller
+[40.036s] gmake: *** [Makefile:146: all] Error 2

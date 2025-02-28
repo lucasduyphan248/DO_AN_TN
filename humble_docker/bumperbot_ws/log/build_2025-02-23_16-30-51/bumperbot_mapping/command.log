@@ -1,0 +1,4 @@
+Invoking command in '/workspace/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_mapping -- -j4 -l4
+Invoked command in '/workspace/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/bumperbot_ws/build/bumperbot_mapping -- -j4 -l4
+Invoking command in '/workspace/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_mapping
+Invoked command in '/workspace/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/bumperbot_ws/build/bumperbot_mapping

@@ -1,0 +1,321 @@
+[0.000000] (-) TimerEvent: {}
+[0.000744] (-) JobUnselected: {'identifier': 'bumperbot_bringup'}
+[0.000817] (-) JobUnselected: {'identifier': 'bumperbot_cpp_examples'}
+[0.000852] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.000880] (-) JobUnselected: {'identifier': 'bumperbot_firmware'}
+[0.000908] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.000935] (-) JobUnselected: {'identifier': 'bumperbot_msgs'}
+[0.000961] (-) JobUnselected: {'identifier': 'bumperbot_py_examples'}
+[0.000986] (-) JobUnselected: {'identifier': 'bumperbot_utils'}
+[0.001012] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.001038] (-) JobUnselected: {'identifier': 'robot_nav2'}
+[0.001064] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001095] (bumperbot_controller) JobQueued: {'identifier': 'bumperbot_controller', 'dependencies': OrderedDict()}
+[0.001126] (bumperbot_mapping) JobQueued: {'identifier': 'bumperbot_mapping', 'dependencies': OrderedDict()}
+[0.001154] (bumperbot_controller) JobStarted: {'identifier': 'bumperbot_controller'}
+[0.011851] (bumperbot_mapping) JobStarted: {'identifier': 'bumperbot_mapping'}
+[0.048115] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'cmake'}
+[0.049405] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'build'}
+[0.050552] (bumperbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/bumperbot_ws/build/bumperbot_controller', '--', '-j4', '-l4'], 'cwd': '/workspace/bumperbot_ws/build/bumperbot_controller', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/bumperbot_ws/build/bumperbot_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.057006] (bumperbot_mapping) JobProgress: {'identifier': 'bumperbot_mapping', 'progress': 'cmake'}
+[0.063457] (bumperbot_mapping) JobProgress: {'identifier': 'bumperbot_mapping', 'progress': 'build'}
+[0.064021] (bumperbot_mapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/bumperbot_ws/build/bumperbot_mapping', '--', '-j4', '-l4'], 'cwd': '/workspace/bumperbot_ws/build/bumperbot_mapping', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/bumperbot_ws/build/bumperbot_mapping'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099298] (-) TimerEvent: {}
+[0.173549] (bumperbot_controller) StdoutLine: {'line': b'[ 33%] Built target simple_controller\n'}
+[0.186352] (bumperbot_mapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.o\x1b[0m\n'}
+[0.199413] (-) TimerEvent: {}
+[0.231322] (bumperbot_controller) StdoutLine: {'line': b'[ 33%] Built target ament_cmake_python_copy_bumperbot_controller\n'}
+[0.282462] (bumperbot_controller) StdoutLine: {'line': b'[ 66%] Built target twist_relay\n'}
+[0.299578] (-) TimerEvent: {}
+[0.400037] (-) TimerEvent: {}
+[0.500436] (-) TimerEvent: {}
+[0.600845] (-) TimerEvent: {}
+[0.626051] (bumperbot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[0.627395] (bumperbot_controller) StdoutLine: {'line': b'writing bumperbot_controller.egg-info/PKG-INFO\n'}
+[0.627823] (bumperbot_controller) StdoutLine: {'line': b'writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt\n'}
+[0.630473] (bumperbot_controller) StdoutLine: {'line': b'writing top-level names to bumperbot_controller.egg-info/top_level.txt\n'}
+[0.634466] (bumperbot_controller) StdoutLine: {'line': b"reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'\n"}
+[0.635725] (bumperbot_controller) StdoutLine: {'line': b"writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'\n"}
+[0.700974] (-) TimerEvent: {}
+[0.706365] (bumperbot_controller) StdoutLine: {'line': b'[ 66%] Built target ament_cmake_python_build_bumperbot_controller_egg\n'}
+[0.759344] (bumperbot_controller) StdoutLine: {'line': b'[100%] Built target noisy_controller\n'}
+[0.782375] (bumperbot_controller) CommandEnded: {'returncode': 0}
+[0.783364] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'install'}
+[0.802261] (bumperbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/bumperbot_ws/build/bumperbot_controller'], 'cwd': '/workspace/bumperbot_ws/build/bumperbot_controller', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/bumperbot_ws/build/bumperbot_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.804262] (-) TimerEvent: {}
+[0.817718] (bumperbot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.818148] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh\n'}
+[0.818298] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv\n'}
+[0.818423] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info\n'}
+[0.818543] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.818726] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.818940] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.819215] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.819521] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller\n'}
+[0.819692] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py\n'}
+[0.820757] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py\n'}
+[0.820940] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/twist_relay.py\n'}
+[0.821048] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py\n'}
+[0.878187] (bumperbot_controller) StdoutLine: {'line': b"Listing '/workspace/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...\n"}
+[0.890682] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/include/include\n'}
+[0.891014] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller\n'}
+[0.891129] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp\n'}
+[0.891246] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp\n'}
+[0.891414] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller\n'}
+[0.891924] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller\n'}
+[0.892507] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay\n'}
+[0.892854] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch\n'}
+[0.893036] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py\n'}
+[0.893153] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py\n'}
+[0.893297] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config\n'}
+[0.893525] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml\n'}
+[0.893664] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml\n'}
+[0.893772] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml\n'}
+[0.893860] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml\n'}
+[0.893979] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml\n'}
+[0.894066] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml\n'}
+[0.894149] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py\n'}
+[0.894234] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py\n'}
+[0.894320] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py\n'}
+[0.894408] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller\n'}
+[0.894495] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller\n'}
+[0.894718] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh\n'}
+[0.894860] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv\n'}
+[0.894964] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh\n'}
+[0.895055] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv\n'}
+[0.895139] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash\n'}
+[0.895224] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh\n'}
+[0.895310] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh\n'}
+[0.895396] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv\n'}
+[0.895479] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv\n'}
+[0.895562] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller\n'}
+[0.895712] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake\n'}
+[0.895835] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake\n'}
+[0.895927] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date: /workspace/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml\n'}
+[0.898668] (bumperbot_controller) CommandEnded: {'returncode': 0}
+[0.904871] (-) TimerEvent: {}
+[1.006098] (-) TimerEvent: {}
+[1.032510] (bumperbot_controller) JobEnded: {'identifier': 'bumperbot_controller', 'rc': 0}
+[1.106206] (-) TimerEvent: {}
+[1.206599] (-) TimerEvent: {}
+[1.307040] (-) TimerEvent: {}
+[1.407430] (-) TimerEvent: {}
+[1.507851] (-) TimerEvent: {}
+[1.608241] (-) TimerEvent: {}
+[1.708669] (-) TimerEvent: {}
+[1.809076] (-) TimerEvent: {}
+[1.909505] (-) TimerEvent: {}
+[2.009942] (-) TimerEvent: {}
+[2.110347] (-) TimerEvent: {}
+[2.210765] (-) TimerEvent: {}
+[2.311176] (-) TimerEvent: {}
+[2.411582] (-) TimerEvent: {}
+[2.511983] (-) TimerEvent: {}
+[2.612375] (-) TimerEvent: {}
+[2.712773] (-) TimerEvent: {}
+[2.813176] (-) TimerEvent: {}
+[2.913569] (-) TimerEvent: {}
+[3.013988] (-) TimerEvent: {}
+[3.114363] (-) TimerEvent: {}
+[3.214750] (-) TimerEvent: {}
+[3.315144] (-) TimerEvent: {}
+[3.415525] (-) TimerEvent: {}
+[3.515928] (-) TimerEvent: {}
+[3.616319] (-) TimerEvent: {}
+[3.716730] (-) TimerEvent: {}
+[3.817094] (-) TimerEvent: {}
+[3.917465] (-) TimerEvent: {}
+[4.017865] (-) TimerEvent: {}
+[4.118249] (-) TimerEvent: {}
+[4.218629] (-) TimerEvent: {}
+[4.319038] (-) TimerEvent: {}
+[4.419406] (-) TimerEvent: {}
+[4.519812] (-) TimerEvent: {}
+[4.620201] (-) TimerEvent: {}
+[4.720586] (-) TimerEvent: {}
+[4.820990] (-) TimerEvent: {}
+[4.921375] (-) TimerEvent: {}
+[5.021759] (-) TimerEvent: {}
+[5.122135] (-) TimerEvent: {}
+[5.222517] (-) TimerEvent: {}
+[5.322909] (-) TimerEvent: {}
+[5.423285] (-) TimerEvent: {}
+[5.523699] (-) TimerEvent: {}
+[5.624073] (-) TimerEvent: {}
+[5.724451] (-) TimerEvent: {}
+[5.824844] (-) TimerEvent: {}
+[5.925216] (-) TimerEvent: {}
+[6.025590] (-) TimerEvent: {}
+[6.125983] (-) TimerEvent: {}
+[6.226357] (-) TimerEvent: {}
+[6.326727] (-) TimerEvent: {}
+[6.427093] (-) TimerEvent: {}
+[6.527460] (-) TimerEvent: {}
+[6.627852] (-) TimerEvent: {}
+[6.728224] (-) TimerEvent: {}
+[6.828591] (-) TimerEvent: {}
+[6.928992] (-) TimerEvent: {}
+[7.029351] (-) TimerEvent: {}
+[7.129724] (-) TimerEvent: {}
+[7.230109] (-) TimerEvent: {}
+[7.330483] (-) TimerEvent: {}
+[7.430878] (-) TimerEvent: {}
+[7.531233] (-) TimerEvent: {}
+[7.631594] (-) TimerEvent: {}
+[7.731976] (-) TimerEvent: {}
+[7.832324] (-) TimerEvent: {}
+[7.932698] (-) TimerEvent: {}
+[8.033058] (-) TimerEvent: {}
+[8.133400] (-) TimerEvent: {}
+[8.233751] (-) TimerEvent: {}
+[8.334129] (-) TimerEvent: {}
+[8.434493] (-) TimerEvent: {}
+[8.534901] (-) TimerEvent: {}
+[8.635300] (-) TimerEvent: {}
+[8.735696] (-) TimerEvent: {}
+[8.836065] (-) TimerEvent: {}
+[8.936443] (-) TimerEvent: {}
+[9.036854] (-) TimerEvent: {}
+[9.137203] (-) TimerEvent: {}
+[9.237564] (-) TimerEvent: {}
+[9.337928] (-) TimerEvent: {}
+[9.438262] (-) TimerEvent: {}
+[9.538609] (-) TimerEvent: {}
+[9.638979] (-) TimerEvent: {}
+[9.739330] (-) TimerEvent: {}
+[9.839675] (-) TimerEvent: {}
+[9.940021] (-) TimerEvent: {}
+[10.040362] (-) TimerEvent: {}
+[10.140718] (-) TimerEvent: {}
+[10.241072] (-) TimerEvent: {}
+[10.341439] (-) TimerEvent: {}
+[10.441808] (-) TimerEvent: {}
+[10.542157] (-) TimerEvent: {}
+[10.642507] (-) TimerEvent: {}
+[10.742867] (-) TimerEvent: {}
+[10.843207] (-) TimerEvent: {}
+[10.943538] (-) TimerEvent: {}
+[11.043892] (-) TimerEvent: {}
+[11.144233] (-) TimerEvent: {}
+[11.244586] (-) TimerEvent: {}
+[11.344972] (-) TimerEvent: {}
+[11.445319] (-) TimerEvent: {}
+[11.545674] (-) TimerEvent: {}
+[11.646009] (-) TimerEvent: {}
+[11.746349] (-) TimerEvent: {}
+[11.846707] (-) TimerEvent: {}
+[11.947049] (-) TimerEvent: {}
+[12.047385] (-) TimerEvent: {}
+[12.147727] (-) TimerEvent: {}
+[12.248076] (-) TimerEvent: {}
+[12.348429] (-) TimerEvent: {}
+[12.448806] (-) TimerEvent: {}
+[12.549161] (-) TimerEvent: {}
+[12.649453] (-) TimerEvent: {}
+[12.749720] (-) TimerEvent: {}
+[12.849984] (-) TimerEvent: {}
+[12.950233] (-) TimerEvent: {}
+[13.050462] (-) TimerEvent: {}
+[13.150719] (-) TimerEvent: {}
+[13.251099] (-) TimerEvent: {}
+[13.351489] (-) TimerEvent: {}
+[13.451885] (-) TimerEvent: {}
+[13.552288] (-) TimerEvent: {}
+[13.652696] (-) TimerEvent: {}
+[13.753087] (-) TimerEvent: {}
+[13.853469] (-) TimerEvent: {}
+[13.953913] (-) TimerEvent: {}
+[14.054422] (-) TimerEvent: {}
+[14.154812] (-) TimerEvent: {}
+[14.255210] (-) TimerEvent: {}
+[14.326614] (bumperbot_mapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mapping_with_known_poses\x1b[0m\n'}
+[14.355350] (-) TimerEvent: {}
+[14.455820] (-) TimerEvent: {}
+[14.556432] (-) TimerEvent: {}
+[14.657300] (-) TimerEvent: {}
+[14.757988] (-) TimerEvent: {}
+[14.858581] (-) TimerEvent: {}
+[14.959350] (-) TimerEvent: {}
+[15.059703] (-) TimerEvent: {}
+[15.160028] (-) TimerEvent: {}
+[15.260363] (-) TimerEvent: {}
+[15.360710] (-) TimerEvent: {}
+[15.370510] (bumperbot_mapping) StdoutLine: {'line': b'[100%] Built target mapping_with_known_poses\n'}
+[15.460830] (-) TimerEvent: {}
+[15.545248] (bumperbot_mapping) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_copy_bumperbot_mapping\n'}
+[15.560928] (-) TimerEvent: {}
+[15.661230] (-) TimerEvent: {}
+[15.761491] (-) TimerEvent: {}
+[15.861723] (-) TimerEvent: {}
+[15.961973] (-) TimerEvent: {}
+[16.062230] (-) TimerEvent: {}
+[16.162456] (-) TimerEvent: {}
+[16.262713] (-) TimerEvent: {}
+[16.363043] (-) TimerEvent: {}
+[16.463419] (-) TimerEvent: {}
+[16.563800] (-) TimerEvent: {}
+[16.664150] (-) TimerEvent: {}
+[16.760711] (bumperbot_mapping) StdoutLine: {'line': b'running egg_info\n'}
+[16.761988] (bumperbot_mapping) StdoutLine: {'line': b'writing bumperbot_mapping.egg-info/PKG-INFO\n'}
+[16.762404] (bumperbot_mapping) StdoutLine: {'line': b'writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt\n'}
+[16.764217] (-) TimerEvent: {}
+[16.764982] (bumperbot_mapping) StdoutLine: {'line': b'writing top-level names to bumperbot_mapping.egg-info/top_level.txt\n'}
+[16.768990] (bumperbot_mapping) StdoutLine: {'line': b"reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'\n"}
+[16.770352] (bumperbot_mapping) StdoutLine: {'line': b"writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'\n"}
+[16.835034] (bumperbot_mapping) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_bumperbot_mapping_egg\n'}
+[16.856327] (bumperbot_mapping) CommandEnded: {'returncode': 0}
+[16.860850] (bumperbot_mapping) JobProgress: {'identifier': 'bumperbot_mapping', 'progress': 'install'}
+[16.861341] (bumperbot_mapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/bumperbot_ws/build/bumperbot_mapping'], 'cwd': '/workspace/bumperbot_ws/build/bumperbot_mapping', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/bumperbot_ws/build/bumperbot_mapping'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.864301] (-) TimerEvent: {}
+[16.879602] (bumperbot_mapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.879935] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh\n'}
+[16.880562] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv\n'}
+[16.881032] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info\n'}
+[16.881304] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[16.881490] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[16.881662] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[16.881824] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[16.882038] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping\n'}
+[16.882163] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/mapping_with_known_poses.py\n'}
+[16.882359] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/__init__.py\n'}
+[16.941111] (bumperbot_mapping) StdoutLine: {'line': b"Listing '/workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping'...\n"}
+[16.941401] (bumperbot_mapping) StdoutLine: {'line': b"Compiling '/workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/__init__.py'...\n"}
+[16.941521] (bumperbot_mapping) StdoutLine: {'line': b"Compiling '/workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/mapping_with_known_poses.py'...\n"}
+[16.952518] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/include/include\n'}
+[16.952774] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping\n'}
+[16.952939] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp\n'}
+[16.953250] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses\n'}
+[16.961133] (bumperbot_mapping) StdoutLine: {'line': b'-- Set runtime path of "/workspace/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses" to ""\n'}
+[16.961329] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config\n'}
+[16.963740] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml\n'}
+[16.964368] (-) TimerEvent: {}
+[16.964618] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch\n'}
+[16.965210] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py\n'}
+[16.965936] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps\n'}
+[16.966605] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house\n'}
+[16.966991] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm\n'}
+[16.971081] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml\n'}
+[16.971782] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse\n'}
+[16.972435] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.pgm\n'}
+[16.976335] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.yaml\n'}
+[16.977014] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz\n'}
+[16.977664] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz\n'}
+[16.978477] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py\n'}
+[16.978861] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping\n'}
+[16.979513] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping\n'}
+[16.980010] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh\n'}
+[16.980253] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv\n'}
+[16.980752] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh\n'}
+[16.980976] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv\n'}
+[16.981447] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash\n'}
+[16.981930] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh\n'}
+[16.982479] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh\n'}
+[16.982969] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv\n'}
+[16.983448] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv\n'}
+[16.984006] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping\n'}
+[16.984267] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake\n'}
+[16.984739] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake\n'}
+[16.985180] (bumperbot_mapping) StdoutLine: {'line': b'-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml\n'}
+[16.988993] (bumperbot_mapping) CommandEnded: {'returncode': 0}
+[17.010405] (bumperbot_mapping) JobEnded: {'identifier': 'bumperbot_mapping', 'rc': 0}
+[17.011582] (-) EventReactorShutdown: {}

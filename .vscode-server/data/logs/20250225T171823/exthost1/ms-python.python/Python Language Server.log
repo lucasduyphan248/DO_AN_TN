@@ -1,0 +1,19 @@
+2025-02-25 17:19:09.583 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-25 17:19:10.066 [info] [Info  - 5:19:09 PM] (2912) Server root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-25 17:19:10.071 [info] [Info  - 5:19:10 PM] (2912) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-25 17:19:10.071 [info] [Info  - 5:19:10 PM] (2912) Starting service instance "humble_docker"
+2025-02-25 17:19:10.166 [info] [Info  - 5:19:10 PM] (2912) Setting environmentName for service "humble_docker": "python"
+2025-02-25 17:19:10.167 [info] [Info  - 5:19:10 PM] (2912) No include entries specified; assuming /home/pi/humble_docker
+2025-02-25 17:19:10.169 [info] [Info  - 5:19:10 PM] (2912) Auto-excluding **/node_modules
+2025-02-25 17:19:10.169 [info] [Info  - 5:19:10 PM] (2912) Auto-excluding **/__pycache__
+2025-02-25 17:19:10.170 [info] [Info  - 5:19:10 PM] (2912) Auto-excluding **/.*
+2025-02-25 17:19:10.218 [info] [Info  - 5:19:10 PM] (2912) Assuming Python version 3.12.7.final.0
+2025-02-25 17:19:11.438 [info] [Info  - 5:19:11 PM] (2912) Found 213 source files
+2025-02-25 17:19:12.251 [info] [Info  - 5:19:12 PM] (2912) Background analysis(1) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-25 17:19:12.251 [info] [Info  - 5:19:12 PM] (2912) Background analysis(1) started
+2025-02-25 17:19:12.678 [info] [Info  - 5:19:12 PM] (2912) Indexer background runner(2) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-25 17:19:12.678 [info] [Info  - 5:19:12 PM] (2912) Indexing(2) started
+2025-02-25 17:19:15.345 [info] [Info  - 5:19:15 PM] (2912) [IDX(2)] Long operation: scan packages file:///home/pi/humble_docker (2303ms)
+2025-02-25 17:19:15.346 [info] [Info  - 5:19:15 PM] (2912) scanned(2) 314 files over 1 exec env
+2025-02-25 17:19:16.042 [info] [Info  - 5:19:16 PM] (2912) indexed(2) 314 files over 1 exec env
+2025-02-25 17:19:16.229 [info] [Info  - 5:19:16 PM] (2912) Indexing finished(2).

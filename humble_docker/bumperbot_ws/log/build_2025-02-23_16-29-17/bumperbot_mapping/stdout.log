@@ -1,0 +1,59 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mapping_with_known_poses[0m
+[100%] Built target mapping_with_known_poses
+[100%] Built target ament_cmake_python_copy_bumperbot_mapping
+running egg_info
+writing bumperbot_mapping.egg-info/PKG-INFO
+writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_bumperbot_mapping_egg
+-- Install configuration: ""
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/mapping_with_known_poses.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/__init__.py
+Listing '/workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping'...
+Compiling '/workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/__init__.py'...
+Compiling '/workspace/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/mapping_with_known_poses.py'...
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/include/include
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses
+-- Set runtime path of "/workspace/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses" to ""
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.pgm
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.yaml
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+-- Installing: /workspace/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml

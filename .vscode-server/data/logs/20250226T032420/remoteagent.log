@@ -1,0 +1,40 @@
+2025-02-26 03:24:20.175 [info] 
+
+
+
+
+2025-02-26 03:24:20.199 [info] Extension host agent started.
+2025-02-26 03:24:20.348 [info] [<unknown>][444e0a5e][ManagementConnection] New connection established.
+2025-02-26 03:24:20.374 [info] [<unknown>][f5e6c1f3][ExtensionHostConnection] New connection established.
+2025-02-26 03:24:20.512 [info] [<unknown>][f5e6c1f3][ExtensionHostConnection] <1598> Launched Extension Host Process.
+2025-02-26 03:24:24.053 [error] CodeExpectedError: Could not find pty 4 on pty host
+    at I.W (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12233)
+    at I.updateTitle (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at Kc.s (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80170)
+    at Kc.q (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79693)
+    at hs.value (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79095)
+    at C.B (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at C.fire (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.w (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29136)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-02-26 03:24:24.056 [error] CodeExpectedError: Could not find pty 4 on pty host
+    at I.W (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12233)
+    at I.updateIcon (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7772)
+    at O.s.<computed> (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at Kc.s (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80170)
+    at Kc.q (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79693)
+    at hs.value (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79095)
+    at C.B (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at C.fire (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.w (file:///home/pi/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29136)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-02-26 03:24:38.407 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/pi/.vscode-server/data/logs/20250224T043757/exthost2/ms-python.python' failed: No such file or directory (EUNKNOWN) (path: /home/pi)
+2025-02-26 03:24:38.408 [error] [File Watcher (universal)] inotify_add_watch on '/home/pi/.vscode-server/data/logs/20250224T043757/exthost2/ms-python.python' failed: No such file or directory
+2025-02-26 03:29:20.200 [info] New EH opened, aborting shutdown

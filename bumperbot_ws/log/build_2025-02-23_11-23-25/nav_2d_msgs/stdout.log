@@ -1,0 +1,35 @@
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found geometry_msgs: 4.2.4 (/home/pi/ros2_humble/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.7") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.6 (/home/pi/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/home/pi/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/home/pi/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rosidl_default_generators: 1.2.0 (/home/pi/ros2_humble/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/home/pi/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.12.7", minimum required is "3.6")
+-- Found python_cmake_module: 0.10.0 (/home/pi/ros2_humble/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.12.so (found suitable version "3.12.7", minimum required is "3.5")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.12
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.12.so
+-- Found PythonExtra: .so
+-- Using numpy include directory: /usr/lib/python3/dist-packages/numpy/core/include
+-- Configuring done (18.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/pi/bumperbot_ws/build/nav_2d_msgs

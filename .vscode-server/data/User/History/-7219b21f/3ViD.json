@@ -1,0 +1,11 @@
+{
+    "code-runner.runInTerminal": true,
+    "workbench.colorTheme": "Dracula Theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "cmake.configureOnOpen": false,
+    "cmake.showOptionsMovedNotification": false,
+    "python.createEnvironment.trigger": "off",
+    "remote.SSH.remotePlatform": {
+        "192.168.0.8": "linux"
+    }
+}
