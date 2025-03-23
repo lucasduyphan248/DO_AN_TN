@@ -1,4 +1,4 @@
-# Graduated Project
+# **_Graduated Project_**
 ## Using ROS2 Humble via Docker in order to run on Raspberry pi 5
 ## Main functions:
 - Mapping using SLAM_TOOLBOX
