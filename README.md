@@ -6,4 +6,5 @@
 Run this command to run this robot 
 bumperbot_ws/src/robot_bringup/launch/robot_bringup.launch.py
 
-#
+## My source code in bumperbot_ws/src/robot_nav2 (Run navigation)
+##                  and  bumperbot_ws/src/robot_bringup (Run robot)
